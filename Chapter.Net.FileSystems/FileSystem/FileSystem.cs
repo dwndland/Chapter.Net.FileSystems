@@ -5,27 +5,28 @@
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.Net.FileSystems;
-
-/// <inheritdoc />
-public class FileSystem : IFileSystem
+namespace Chapter.Net.FileSystems
 {
-    /// <summary>
-    ///     Creates a new instance of <see cref="FileSystem" />.
-    /// </summary>
-    public FileSystem()
+    /// <inheritdoc />
+    public class FileSystem : IFileSystem
     {
-        File = new FileWrapper();
-        Directory = new DirectoryWrapper();
-        Path = new PathWrapper();
+        /// <summary>
+        ///     Creates a new instance of <see cref="FileSystem" />.
+        /// </summary>
+        public FileSystem()
+        {
+            File = new FileWrapper();
+            Directory = new DirectoryWrapper();
+            Path = new PathWrapper();
+        }
+
+        /// <inheritdoc />
+        public IFile File { get; }
+
+        /// <inheritdoc />
+        public IDirectory Directory { get; }
+
+        /// <inheritdoc />
+        public IPath Path { get; }
     }
-
-    /// <inheritdoc />
-    public IFile File { get; }
-
-    /// <inheritdoc />
-    public IDirectory Directory { get; }
-
-    /// <inheritdoc />
-    public IPath Path { get; }
 }

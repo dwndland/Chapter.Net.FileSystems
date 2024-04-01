@@ -5,28 +5,29 @@
 
 // ReSharper disable once CheckNamespace
 
-namespace Chapter.Net.FileSystems;
-
-/// <summary>
-///     Provides access to the File, Directory or Path objects.
-/// </summary>
-public interface IFileSystem
+namespace Chapter.Net.FileSystems
 {
     /// <summary>
-    ///     Provides static methods for the creation, copying, deletion, moving, and opening of a single file, and aids in the
-    ///     creation of FileStream objects.
+    ///     Provides access to the File, Directory or Path objects.
     /// </summary>
-    IFile File { get; }
+    public interface IFileSystem
+    {
+        /// <summary>
+        ///     Provides static methods for the creation, copying, deletion, moving, and opening of a single file, and aids in the
+        ///     creation of FileStream objects.
+        /// </summary>
+        IFile File { get; }
 
-    /// <summary>
-    ///     Exposes static methods for creating, moving, and enumerating through directories and subdirectories. This class
-    ///     cannot be inherited.
-    /// </summary>
-    IDirectory Directory { get; }
+        /// <summary>
+        ///     Exposes static methods for creating, moving, and enumerating through directories and subdirectories. This class
+        ///     cannot be inherited.
+        /// </summary>
+        IDirectory Directory { get; }
 
-    /// <summary>
-    ///     Performs operations on String instances that contain file or directory path information. These operations are
-    ///     performed in a cross-platform manner.
-    /// </summary>
-    IPath Path { get; }
+        /// <summary>
+        ///     Performs operations on String instances that contain file or directory path information. These operations are
+        ///     performed in a cross-platform manner.
+        /// </summary>
+        IPath Path { get; }
+    }
 }
