@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/dwndland/Chapter.Net.FileSystems/master/Icon.png" alt="logo" width="64"/>
+<img src="https://raw.githubusercontent.com/dwndlnd/Chapter.Net.FileSystems/master/Icon.png" alt="logo" width="64"/>
 
 # Chapter.Net.FileSystems Library
 
@@ -252,7 +252,7 @@ Chapter.Net.FileSystems brings wrappers and extensions to work with the local fi
 
 ## Links
 * [NuGet](https://www.nuget.org/packages/Chapter.Net.FileSystems)
-* [GitHub](https://github.com/dwndland/Chapter.Net.FileSystems)
+* [GitHub](https://github.com/dwndlnd/Chapter.Net.FileSystems)
 
 ## License
 Copyright (c) David Wendland. All rights reserved.
