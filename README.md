@@ -1,4 +1,5 @@
-<img src="https://raw.githubusercontent.com/dwndland/Chapter.Net.FileSystems/master/Icon.png" alt="logo" width="64"/>
+![Chapter](https://raw.githubusercontent.com/dwndland/Chapter.Net.FileSystems/master/Icon.png)
+
 
 # Chapter.Net.FileSystems Library
 
