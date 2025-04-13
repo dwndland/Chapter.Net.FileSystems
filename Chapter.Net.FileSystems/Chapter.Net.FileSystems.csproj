@@ -4,8 +4,8 @@
     <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <Version>2.1.0</Version>
     <Authors>David Wendland</Authors>
-    <Description>Chapter.Net.FileSystems brings wrappers and extensions to work with the local file system.</Description>
-    <Copyright>Copyright (c) 2024 David Wendland</Copyright>
+    <Description>Chapter.Net.FileSystems is a library that provides helper classes for working with the file system, offering convenient abstractions that are also ideal for unit testing scenarios.</Description>
+    <Copyright>Copyright (c) 2025 David Wendland</Copyright>
     <PackageProjectUrl>https://github.com/dwndland/Chapter.Net.FileSystems</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>

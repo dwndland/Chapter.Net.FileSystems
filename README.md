@@ -4,7 +4,7 @@
 # Chapter.Net.FileSystems Library
 
 ## Overview
-Chapter.Net.FileSystems brings wrappers and extensions to work with the local file system.
+Chapter.Net.FileSystems is a library that provides helper classes for working with the file system, offering convenient abstractions that are also ideal for unit testing scenarios.
 
 ## Features
 - **IDirectory:** Gives access to all static Directory.* methods.
